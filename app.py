@@ -6,7 +6,9 @@ from src.recommendation import get_recommendation
 movie_data = load_data()
 movie_name_list = get_name_list()
 
-st.header("Movie Recommendations")
+st.title("Movie Recommendations")
+st.divider()
+
 st.subheader('Search a movie to get recommendations.')
 selected_movie = st.selectbox('Select your favourite movie',options=movie_name_list)
 
@@ -34,4 +36,7 @@ with col3:
     st.image(recommended_movie_posters[6], caption=recommended_movie_names[6])
 with col4:
     st.image(recommended_movie_posters[7], caption=recommended_movie_names[7])
+
+st.divider()
+st.caption('Made by Mrinal-Exe')
 
