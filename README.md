@@ -1,6 +1,7 @@
 # Movie Recommendation App
 
 This project is a movie recommendation web application using Streamlit. Users can input their favorite movie, and the app provides recommendations based on movie similarities.
+Demo [HERE](https://recommendation.streamlit.app/)
 
 ## Getting Started
 
