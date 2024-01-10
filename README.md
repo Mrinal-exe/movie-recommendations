@@ -18,10 +18,10 @@ This project is a movie recommendation web application using Streamlit. Users ca
     cd movie-recommendations
     ```
 
-2. Install streamlit:
+2. Install dependencies:
 
     ```bash
-    pip install streamlit
+    pip install -r requirements.txt
     ```
 
 3. Run the Streamlit app:
@@ -35,7 +35,7 @@ This project is a movie recommendation web application using Streamlit. Users ca
 ## Usage
 
 1. Select your favorite movie from the dropdown menu.
-2. Click the "Show Recommendation" button to view movie recommendations.
+2. Click the "Suggest Rabdom" button to view random movie recommendations.
 3. Recommendations will be displayed with movie names and posters.
 
 ## Features
